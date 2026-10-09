@@ -1,0 +1,15 @@
+{
+    "name": "movemigo/websocket-messaging",
+    "description": "MoveMigo WebSocket Real-time Messaging System",
+    "require": {
+        "php": ">=7.4",
+        "cboden/ratchet": "^0.4",
+        "react/socket": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoveMigo\\": "websocket/"
+        }
+    }
+}
+
